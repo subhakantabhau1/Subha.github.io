@@ -1,0 +1,250 @@
+html,body{
+    overflow-x: hidden;
+    max-width: 100%;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+a{text-decoration: none;}
+a:hover{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+p{
+    font-size: 0.9rem;
+    line-height: 1.6;
+    font-weight: 400;
+    color: black;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(78, 19, 187, 0.3), rgba(0,168,255,0.3)), url('../IMAGE/jordan-evtWtv0i-6E-unsplash.jpg');
+  
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+    clip-path:polygon(100% 0%,100% 75%,50% 100%,0 75%,0 0);
+    position: relative;
+}
+.header:before{
+    content:"";
+    position: absolute;
+    top: 0%;
+    z-index: -1;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    opacity: .3;
+    background: linear-gradient(to right,#1e5799 0%,#3ccdbb,#1e5799 100%)
+}
+.navbar:before{
+    content:"";
+    position: absolute;
+    top: 0%;
+    z-index:-1;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    
+    opacity:100%;
+    background:#1ef876;
+}
+.nav-item a{
+    color: #fff!important;
+    font-weight:bold ;
+}
+.header-section{
+    width: 100%;
+    height: inherit;
+    color: white;
+    text-align:center;
+    position: relative;
+
+}
+.center-div{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+}
+.header-buttons a{
+border: 1px solid #fff;
+border-radius: 100px;
+margin: 0 5px;
+padding: 12px 35px;
+outline: none;
+color: #fff;
+font-size: 1rem;
+font-weight: 400;
+line-height: 1.4;
+text-align: center;
+}
+.header-buttons a:hover{
+    text-decoration: none;
+    color: #16af37;
+    background: #fff;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+
+}
+.center-div p{
+    font-size: 1.3rem;
+    padding: 0 0 20px 0;
+    
+
+}
+.table{
+    border-collapse:collapse;
+    width:100%;
+column-width: auto;
+
+}
+td,th{
+    border:1px solid #dddddd;
+    padding :8px;
+}
+.header-extra-div{
+    width: 100%;
+    height:auto;
+    margin: 100px 0;
+    
+}
+.extra-div{
+    background:#fff;
+    border:medium none;
+    padding:50px!important;
+    border-radius: 3px;
+    transition:0.3s;
+    text-align:center;
+    
+}
+.extra-div h2,.servicediv h2{
+font-size: 0.9rem;
+margin: 20px 0 15px 0;
+font-weight: bold;
+line-height: 1.1;
+word-spacing: 4px;
+}
+.extra-div:hover{
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+    transform: translateY(-20PX); 
+}
+
+
+
+i{
+color: #1e5799 !important;
+}
+
+/************project details****/
+.serviceoffers{
+    background:#73e27c ;
+    padding: 50px 0;
+    margin-bottom: 50px;
+
+}
+.headings{
+    margin-bottom: 50px;
+}
+.headings h1{
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.names h1{
+    color: #2e2e2e;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.service-icons{display: flex;
+justify-content: center;
+align-items: center;}
+
+.progress{
+    height: o 0.6rem!important;
+    margin-bottom: 25px!important;
+}
+.top{
+    margin-left: -67px;
+    margin-top: 0px;
+}
+.nav-link:hover{
+    
+    color: #050222;
+    background: rgb(19, 5, 141);
+    
+}
+
+/* The switch - the box around the slider */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 23px;
+  }
+  
+  .slider.round:before {
+    border-radius: 40%;
+  }
+ 

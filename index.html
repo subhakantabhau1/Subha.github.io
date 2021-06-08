@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+    <title> MY RESUME</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/custom2.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+   
+    <script src="https://kit.fontawesome.com/8d0e68d06c.js" crossorigin="anonymous"></script>
+
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+ 
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script type="text/javascript">
+  google.charts.load('current', {'packages':['corechart']});
+  google.charts.setOnLoadCallback(drawChart);
+
+  function drawChart() {
+
+    var data = google.visualization.arrayToDataTable([
+      ['MY SKILLDATA', ''],
+      ['C#,JS',     4],
+      ['ASP.NET',      4],
+      ['MS SQL',  4],
+      ['BOOTSTRAP,CSS', 4],
+      ['ANGULAR 10',    2]
+    
+    ]);
+
+    var options = {
+      title: 'MY SKILL BY PERCENTAGE'
+    };
+
+    var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+
+    chart.draw(data, options);
+  }
+</script>
+   
+</head>
+<body>
+    <div class="header" id="topheader">
+        <nav class="navbar navbar-expand-lg fixed-top ">
+            <div class="container text-uppercase p-2" >
+            <a class="navbar-brand font-weight-bold text-white" href="#topheader">SUBHA-BLOG</a>
+
+
+            <button class="navbar-toggler"type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+               <div class="small">
+                <label class="switch">
+                    <input type="checkbox">
+                <span class="slider" ></span>
+            </label>
+               </div>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                <ul class="navbar-nav ml-auto text-uppercase">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#topheader">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#servicediv">SKILL</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://bit.ly/3uYyWnh">RESUME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#footerdiv">CONTACT</a>
+                    </li>
+
+
+                </ul>
+
+            </div>
+                </div>
+        </nav>
+
+        <section class="header-section">
+            <div class="center-div">
+<h1 class="font-weight-bold">Welcome To My Blog</h1>
+                <p> SUBHAKANTA PARIDA WELCOME YOU</p>
+                <div class="header-buttons">
+                    <a href="#footerdiv">About</a>
+                    <a href="#footerdiv">Contact</a>
+
+
+                </div>
+            </div>
+
+        </section>
+    </div>
+    <!---header end-->
+
+    <section class="header-extradiv" style="padding: 0;margin: 0!important">
+        <div class="container" style="margin-top: 40px;" >
+            <div class="row">
+
+                <div class=" extra-div col-lg-3 col-md-4 col-12">
+                   
+                       
+                        <i class=" fa-2x fas fa-university"></i> 
+                    </a>
+                    <h2>EDUCATION</h2>
+                    <div class="central">
+                    <table>
+                        <tr>
+                            
+                            <th>QUALIFICATION</th>
+                            <th>SCORE</th>
+                        </tr>
+                        <tr>
+                            <td>M.C.A </td>
+                            <td> 79.16 </td>
+                            
+                        </tr>
+                        <tr>
+                            <td> B.SC</td>
+                            <td>66.41 </td>
+                            
+                        </tr>
+
+  <tr>
+                            <td> C.H.S.E </td>
+                            <td> 59.16 </td>
+                            
+                        </tr>
+                        <tr>
+                            <td> H.S.C </td>
+                            <td> 58.16 </td>
+                            
+                        </tr>
+                        
+                    </table>
+                </div>
+                </div>
+                <!------->
+                <div class=" extra-div col-lg-3 col-md-4 col-12 ;">
+                    <a href="#">
+                        <i class="fa-2x fas fa-laptop-code"></i>
+                        
+                    </a>
+                    <h2>SKILL</h2>
+                    <p>C#,ASP.NET,HTML,JAVASCRIPT<BR/>CSS,BOOTSTRAP,ANGULAR 10.</p>
+                </div>
+                <!---->
+
+                <div class=" extra-div col-lg-3 col-md-4 col-12">
+                    <a href="#">
+                        
+                        <i class=" fa-2x fas fa-tasks"></i>
+                      
+                    </a>
+                    <h2>ADDITIONAL</BR>TASK</h2>
+                    <p>Leading my team during college project.<br>OJEE rank 142 in 2018.</p>
+                </div>
+                <!---->
+                <div class=" extra-div col-lg-3 col-md-4 col-12">
+                    <a href="#">
+                      
+                        <i class=" fa-2x fas fa-database"></i>
+                    </a>
+                    <h2>MS SQL</h2>
+                    <p>Can do regular data transcation  <br> with store procdure,trigger.</p>
+                </div>
+
+
+            </div>
+        </div>
+
+    </section>
+
+<!---WHAT POJECT "I HAVE DONE-->
+<section class="serviceoffers" id="servicediv">
+    <div class="container headings text-center">
+        <h1 class="text-center font-weight-bold">SKILL PERCENTAGE</h1>  
+        <p class="text-center">Skill Percentag  details given below.</p>
+     </div>
+
+     <div class="container" style="margin-left: 12%;" id="idclear">
+         <div class="row" id="pieid">
+
+
+         
+             <div class="col-lg-2 col-md-2 col-12 " id="piechart1" >
+                
+                <div id="piechart" style="width: 900px; height: 500px;"></div>
+            
+             </div>
+      
+
+
+             </div>
+
+           </div>          
+
+       
+     </div>
+
+</section>
+
+<!--------------project
+--> <div class="container headings text-center">
+    <h1 class="text-center font-weight-bold">PROJECT DETAILS </h1>  
+    <p class="text-center">Work project details given below.</p>
+</div>
+<section class="pricing" id="pricingdiv">
+  
+
+<div class="container1">
+    <div class="card">
+        <div class="circle">
+            <h2>E-JOB PORTAL</h2>
+            <p>Basically it's designed for those
+                companies wants to recruit students.
+   
+                   It has 3 module user,admin,company
+            </p>
+        </div>
+       
+    </div>
+
+    <div class="card">
+        <div class="circle">
+            <h2>SALES MANAGMENT PORTAL</h2>
+            <p>Manange login of admin,manager
+            seller and acess them to their module.
+
+            Using bootstrap,css,ms sql asp.net.
+            </p>
+        </div>
+        
+    </div>
+
+    <div class="card">
+        <div class="circle">
+            <h2>SUBHA-SHOPPING</h2>
+            <p>Develop a mini e-commerce website 
+                 using asp.net,bootstrap,css.
+            </p>
+        </div>
+        
+    </div>
+</div>
+
+
+
+    </section>
+
+<!-----footer-->
+<footer class="footer" id="footerdiv">
+    
+    <div class="container">
+        <div class="row">
+
+           
+            <div class="footer-col">
+                <h4>SUBHAKANTA PARIDA</h4>
+                <ul>
+                    <li>At-binjha</li>
+                    <li>po-dolapadi </li>
+                    <li> odisha</li>
+                    <li>756114 </li>
+                </ul>
+            </div>
+            
+            <div class="footer-col">
+                <h4>follow me</h4>
+                <div class="social-links">
+                    
+                    <a href="https://www.facebook.com/profile.php?id=100006888197237"><i class="fab fa-facebook-f"></i></a>
+
+                </div>
+            
+                <li>Paridasubha9438@gmail.com </li>
+            <img src="IMAGE\197059601_239700354626958_986116994436016536_n.jpg" width="70px" height="70px">
+            </div>
+           
+  
+    </div>
+    <a class="navbar-brand  font-weight-bold text-red position-relative float-lg-right " href="#topheader">Top</a>
+    </div>
+    
+  
+</footer>
+
+
+
+
+
+
+
+<script src= "https://code.jquery.com/jquery-3.2.1.slim.min.js">   </script>
+
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
